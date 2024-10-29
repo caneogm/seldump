@@ -1,0 +1,22 @@
+{
+  "commands": [
+    {
+      "command": "get",
+      "url": "https://www.dnb.com/business-directory/industry-analysis.oilseed_and_grain_farming.html"
+    },
+    {
+      "command": "try-click",
+      "xpath": "//button[contains(text(), 'Agree') and contains(text(), 'Proceed')]",
+      "timeout": 20
+    },
+    {
+      "command": "click",
+      "xpath": "//div//a[contains(text(), 'Italy')]"
+    },
+    {
+      "command": "dumpxpath",
+      "xpath": "//div[@id='companyResults']//a"
+    }
+  ]
+}
+
